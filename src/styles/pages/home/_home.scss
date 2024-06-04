@@ -1,18 +1,17 @@
-// Headings for sections 
+// Headings for sections
 .heading_cnt {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
-
 
 //====================================== Breakpoints
 @media (max-width: 780px) {
-    .heading_cnt {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 2rem;
-    }
+  .heading_cnt {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
 }
 
 @import "hero";

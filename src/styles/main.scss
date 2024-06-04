@@ -4,43 +4,43 @@ $light: #fff;
 $primary: #b9e9b3;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    background: $dark;
-    color: $light;
-    font-family: syneR;
-    overscroll-behavior: none;
-    font-variation-settings: normal;
-    font-feature-settings: normal;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: $dark;
+  color: $light;
+  font-family: syneR;
+  overscroll-behavior: none;
+  font-variation-settings: normal;
+  font-feature-settings: normal;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 ::-webkit-scrollbar-track {
-    display: none;
+  display: none;
 }
 
 ::selection {
-    color: #121315;
-    background: #b9e9b3;
+  color: #121315;
+  background: #b9e9b3;
 }
 
 html.has-scroll-smooth {
-    overflow: hidden;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 // .c-scrollbar {
@@ -48,8 +48,8 @@ html.has-scroll-smooth {
 // }
 
 .c-scrollbar_thumb {
-    background: $primary;
-    opacity: 1;
+  background: $primary;
+  opacity: 1;
 }
 
 @import "utilities/utilities";
