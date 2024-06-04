@@ -1,23 +1,23 @@
 import Link from "next/link";
 
 export default function Footer() {
-return (
-  <footer>
-            <div id="container">
-              <div className="heading_cnt">
-                <div className="heading">
-                  <h1 className="fade">
-                    have an <br /> idea?
-                  </h1>
-                  <h1 className="fill">
-                    have an <br /> idea?
-                  </h1>
-                </div>
-                <Link href="contact.html" className="btn focus" data-magnetic="">
-                  Contact Us
-                  </Link>
-              </div>
-              {/* <div className="wrapper focus mT5">
+  return (
+    <footer>
+      <div id="container">
+        <div className="heading_cnt">
+          <div className="heading">
+            <h1 className="fade">
+              have an <br /> idea?
+            </h1>
+            <h1 className="fill">
+              have an <br /> idea?
+            </h1>
+          </div>
+          <Link href="contact.html" className="btn focus" data-magnetic="">
+            Contact Us
+          </Link>
+        </div>
+        {/* <div className="wrapper focus mT5">
           <Link
             href="https://www.instagram.com"
             target="_blank"
@@ -59,16 +59,14 @@ return (
             <Image width={0} height={0} src="/assets/dribble.svg" alt="dribbble" loading="lazy" />
           </a>
         </div> */}
-              <div className="copyrights mT2">
-                <p>©2024 Strip Creative. All rigths reserved.</p>
-                <p>
-                  With purpose, from Las Vegas
-                </p>
-              </div>
-            </div>
-            <div className="full mT5 focus">
-              <h1>Strip Creative</h1>
-            </div>
-          </footer>
-)
+        <div className="copyrights mT2">
+          <p>©2024 Strip Creative. All rigths reserved.</p>
+          <p>With purpose, from Las Vegas.</p>
+        </div>
+      </div>
+      <div className="full mT5 focus">
+        <h1>Strip Creative</h1>
+      </div>
+    </footer>
+  );
 }

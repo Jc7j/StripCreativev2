@@ -1,8 +1,9 @@
-'use client'
+"use client";
 
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+// import dynamic from 'next/dynamic';
 import { useEffect } from "react";
 
 import { initFluid } from "../js/canvasCursor";
@@ -19,10 +20,24 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Clients from "./components/Clients";
+import Marquee from "./components/Marquee";
+
+// const initFluid = dynamic(() => import("../js/canvasCursor").then(mod => mod.initFluid), { ssr: false });
+// const cursor = dynamic(() => import("../js/customCursor").then(mod => mod.cursor), { ssr: false });
+// const animateNav = dynamic(() => import("../js/nav").then(mod => mod.animateNav), { ssr: false });
+// const magneticHover = dynamic(() => import("../js/magnet").then(mod => mod.magneticHover), { ssr: false });
+// const horizontalScrollInsights = dynamic(() => import("../js/horizontalTeam").then(mod => mod.horizontalScrollInsights), { ssr: false });
+// const sticky = dynamic(() => import("../js/stickyScroll").then(mod => mod.sticky), { ssr: false });
+// const testimonials = dynamic(() => import("../js/swiper").then(mod => mod.testimonials), { ssr: false });
+// const marquee = dynamic(() => import("../js/marquee").then(mod => mod.marquee), { ssr: false });
+// const mouseMoveDribble = dynamic(() => import("../js/dribbleMousemove").then(mod => mod.mouseMoveDribble), { ssr: false });
+// const pageReveal = dynamic(() => import("../js/main").then(mod => mod.pageReveal), { ssr: false });
+// const LocomotiveJs = dynamic(() => import("../js/main").then(mod => mod.LocomotiveJs), { ssr: false });
+// const textFillanimation = dynamic(() => import("../js/main").then(mod => mod.textFillanimation), { ssr: false });
 
 export default function Home() {
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       window.onload = () => {
         pageReveal();
       };
@@ -40,7 +55,6 @@ export default function Home() {
       mouseMoveDribble();
     }
   }, []);
-
 
   return (
     <>
@@ -84,25 +98,30 @@ export default function Home() {
         <div className="menu">
           <div id="container">
             <div className="left">
-              <Link href="about.html" data-text="about"/>
+              <Link href="about.html" data-text="about">
                 about
-              <Link href="works.html" data-text="work"/>
+              </Link>
+              <Link href="works.html" data-text="work">
                 work
-              <Link href="service.html" data-text="services"/>
+              </Link>
+              <Link href="service.html" data-text="services">
                 services
-              <Link href="team.html" data-text="team"/>
+              </Link>
+              <Link href="team.html" data-text="team">
                 team
-              <Link href="contact.html" data-text="contact"/>
+              </Link>
+              <Link href="contact.html" data-text="contact">
                 contact
+              </Link>
             </div>
             <div className="right">
-              <Link href="mailto:info@innovise.com" className="focus"/>
-                jason@stripcreative.design
+              <Link href="mailto:info@innovise.com" className="focus" />
+              jason@stripcreative.design
               {/* <Link href="tel:+011234567890" className="focus">
           +01 1234567890
         </a> */}
               <div className="social_cnt">
-                <Link href="https://www.instagram.com" target="_blank"/>
+                <Link href="https://www.instagram.com" target="_blank">
                   <Image
                     width={0}
                     height={0}
@@ -112,7 +131,8 @@ export default function Home() {
                     loading="lazy"
                     data-magnetic=""
                   />
-                <Link href="https://www.facebook.com" target="_blank"/>
+                </Link>
+                <Link href="https://www.facebook.com" target="_blank">
                   <Image
                     width={0}
                     height={0}
@@ -122,7 +142,8 @@ export default function Home() {
                     loading="lazy"
                     data-magnetic=""
                   />
-                <Link href="https://www.linkedin.com" target="_blank"/>
+                </Link>
+                <Link href="https://www.linkedin.com" target="_blank">
                   <Image
                     width={0}
                     height={0}
@@ -132,7 +153,8 @@ export default function Home() {
                     loading="lazy"
                     data-magnetic=""
                   />
-                <Link href="https://dribbble.com" target="_blank"/>
+                </Link>
+                <Link href="https://dribbble.com" target="_blank">
                   <Image
                     width={0}
                     height={0}
@@ -142,7 +164,8 @@ export default function Home() {
                     loading="lazy"
                     data-magnetic=""
                   />
-                <Link href="https://www.behance.net" target="_blank"/>
+                </Link>
+                <Link href="https://www.behance.net" target="_blank">
                   <Image
                     width={0}
                     height={0}
@@ -152,46 +175,20 @@ export default function Home() {
                     loading="lazy"
                     data-magnetic=""
                   />
+                </Link>
               </div>
             </div>
           </div>
         </div>
         <div className="menu_overlay" />
-        
+
         {/* Scrollable Content */}
         <div id="main">
           <Hero />
           <About />
-
           <Clients />
-          <section className="dribbble">
-            {/* Marquee */}
-            <div className="marquee">
-              <div id="marquee-container" className="marquee-container">
-                <h1 className="marquee-text">
-                  — creative ideas! — creative ideas! — creative ideas! —
-                  creative ideas! — creative ideas! — creative ideas! —
-                </h1>
-                <h1 className="marquee-text">
-                  creative ideas! — creative ideas! — creative ideas! — creative
-                  ideas! — creative ideas! — creative ideas! —
-                </h1>
-              </div>
-              <div id="marquee-container-reverse" className="marquee-container">
-                <h1 className="marquee-text-reverse">
-                  Let&apos;s scroll — Let&apos;s scroll — Let&apos;s scroll —
-                  Let&apos;s scroll — Let&apos;s scroll — Let&apos;s scroll —
-                  Let&apos;s scroll —
-                </h1>
-                <h1 className="marquee-text-reverse">
-                  Let&apos;s scroll — Let&apos;s scroll — Let&apos;s scroll —
-                  Let&apos;s scroll — Let&apos;s scroll — Let&apos;s scroll —
-                  Let&apos;s scroll —
-                </h1>
-              </div>
-            </div>
-          </section>
-        <Footer />
+          <Marquee />
+          <Footer />
         </div>
       </>
     </>
