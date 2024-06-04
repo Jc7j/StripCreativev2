@@ -1,30 +1,4 @@
-import { initFluid } from "./canvasCursor.js";
-import { cursor } from "./customCursor.js";
-import { animateNav } from "./nav.js";
-import { magneticHover } from "./magnet.js";
-import { horizontalScrollInsights } from "./horizontalTeam.js";
-import { sticky } from "./stickyScroll.js";
-import { testimonials } from "./swiper.js";
-import { marquee } from "./marquee.js";
-import { mouseMoveDribble } from "./dribbleMousemove.js";
-
-window.onload = () => {
-  pageReveal();
-};
-
-LocomotiveJs();
-initFluid();
-cursor();
-animateNav();
-magneticHover();
-textFillanimation();
-horizontalScrollInsights(); // Team Page
-sticky(); // service
-testimonials(); // Home page
-marquee(); // Home page
-mouseMoveDribble(); // Home page
-
-function LocomotiveJs() {
+export function LocomotiveJs() {
   let locoScroll;
   locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
@@ -65,7 +39,7 @@ function LocomotiveJs() {
   ScrollTrigger.refresh();
 }
 
-function textFillanimation() {
+export function textFillanimation() {
   const fills = document.querySelectorAll(".fill");
 
   fills.forEach((fill) => {
@@ -83,7 +57,7 @@ function textFillanimation() {
   });
 }
 
-function pageReveal() {
+export function pageReveal() {
   var loader = gsap.timeline();
 
   loader.from(".intro_wrapper h1", {

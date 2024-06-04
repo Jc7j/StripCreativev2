@@ -1488,3 +1488,13 @@ header #container p {
     height: 100vh;
   }
 } /*# sourceMappingURL=main.css.map */
+
+@media (min-width: 1040px) {
+  header #container h2 {
+    max-width: 60%;
+  }
+  header #container p {
+    max-width: 50%;
+  }
+}
+
