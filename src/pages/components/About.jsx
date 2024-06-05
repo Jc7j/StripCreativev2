@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { InfiniteMovingCards } from "./infinite-moving-cards";
+import InfiniteMovingCards from "./infinite-moving-cards";
 
 const Images = [
   {
