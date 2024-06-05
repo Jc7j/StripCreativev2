@@ -258,6 +258,7 @@ section {
 }
 .intro .intro_wrapper .inFix {
   opacity: 0.2;
+  text-wrap: wrap;
 }
 .intro .intro_wrapper .inFill {
   position: absolute;
@@ -266,6 +267,7 @@ section {
   top: 0%;
   left: 0%;
   overflow: hidden;
+  text-wrap: wrap;
 }
 
 .canvas-wrapper {

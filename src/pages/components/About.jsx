@@ -1,4 +1,28 @@
 import Link from "next/link";
+import { InfiniteMovingCards } from "./infinite-moving-cards";
+
+const Images = [
+  {
+    src: "https://res.cloudinary.com/ds9k7nemd/image/upload/v1717191707/FoxConstruction_vhj5rf.png",
+    alt: "Fox Construction",
+  },
+  {
+    src: "https://res.cloudinary.com/ds9k7nemd/image/upload/v1717191707/StationCasinos_iyywib.png",
+    alt: "Station Casinos",
+  },
+  {
+    src: "https://res.cloudinary.com/ds9k7nemd/image/upload/v1717191707/Markethawk_pivsjb.png",
+    alt: "markethawk",
+  },
+  {
+    src: "https://res.cloudinary.com/ds9k7nemd/image/upload/v1717191707/InvoiceTracker_aqshxx.png",
+    alt: "Invoice Tracker Dashboard",
+  },
+  {
+    src: "https://res.cloudinary.com/ds9k7nemd/image/upload/v1717191707/Rent_di6efy.png",
+    alt: "Rent",
+  },
+];
 
 export default function About() {
   return (
@@ -25,18 +49,13 @@ export default function About() {
           </h5>
         </div>
         <div className="about_card mT5">
-          <div className="card" data-scroll="" data-scroll-speed={1}>
-            <h1>40+</h1>
-            <h4>awards &amp; recognition</h4>
-          </div>
-          <div className="card" data-scroll="" data-scroll-speed={2}>
-            <h1>700+</h1>
-            <h4>Projects completed</h4>
-          </div>
-          <div className="card" data-scroll="" data-scroll-speed={3}>
-            <h1>30+</h1>
-            <h4>Team Members</h4>
-          </div>
+          <InfiniteMovingCards
+            items={Images}
+            direction="left"
+            speed="slow"
+            pauseOnHover={false}
+            className="mt-12 block"
+          />
         </div>
       </div>
     </section>

@@ -1,8 +1,6 @@
 "use client";
 
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import { useEffect } from "react";
 
 import { initFluid } from "../js/canvasCursor";
@@ -13,7 +11,6 @@ import { horizontalScrollInsights } from "../js/horizontalTeam";
 import { sticky } from "../js/stickyScroll";
 import { testimonials } from "../js/swiper";
 import { marquee } from "../js/marquee";
-// import { mouseMoveDribble } from "../js/dribbleMousemove";
 import { pageReveal, LocomotiveJs, textFillanimation } from "../js/main";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -42,7 +39,6 @@ export default function Home() {
         sticky();
         testimonials();
         marquee();
-        // mouseMoveDribble();
       }
 
       if (document.readyState === "complete") {
@@ -58,11 +54,25 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Strip Creative - Empowering Your Online Identity</title>
+        <meta
+          name="description"
+          content="Transform your vision into a stunning, functional website with Strip Creative."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
+      </Head>
       <Intro />
       <CanvasCursor />
       <CustomCursor />
       <Navbar />
-      {/* Scrollable Content */}
       <div id="main">
         <Hero />
         <About />
