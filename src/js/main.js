@@ -1,10 +1,7 @@
 export function LocomotiveJs() {
+  if (document.querySelector("#main")) {
   let locoScroll;
-  const mainElement = document.querySelector("#main");
-  if (!mainElement) {
-    console.error("Element with ID 'main' not found.");
-    return;
-  }
+
   locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
@@ -42,6 +39,7 @@ export function LocomotiveJs() {
 
   // after everything is set up, refresh ScrollTrigger to make sure everything is in sync.
   ScrollTrigger.refresh();
+}
 }
 
 export function textFillanimation() {
