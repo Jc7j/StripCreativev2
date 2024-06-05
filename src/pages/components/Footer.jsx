@@ -44,8 +44,8 @@ function FAQ({ question, answer }) {
           <path
             d="M32.4998 20.4053V42.7241M43.6592 31.5647H21.3403"
             stroke="white"
-            stroke-width="2.05664"
-            stroke-linecap="round"
+            strokeWidth="2.05664"
+            strokeLinecap="round"
           />
         </svg>
       </div>
