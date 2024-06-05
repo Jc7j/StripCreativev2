@@ -541,6 +541,7 @@ footer #container .wrapper .socialLink {
   width: 100%;
   max-width: 900px;
   display: flex;
+  text-align: left;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #fff;
