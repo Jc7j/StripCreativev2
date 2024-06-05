@@ -253,12 +253,9 @@ section {
 .intro .intro_wrapper {
   position: relative;
   overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
 }
 .intro .intro_wrapper .inFix {
   opacity: 0.2;
-  text-wrap: wrap;
 }
 .intro .intro_wrapper .inFill {
   position: absolute;
@@ -267,7 +264,6 @@ section {
   top: 0%;
   left: 0%;
   overflow: hidden;
-  text-wrap: wrap;
 }
 
 .canvas-wrapper {
@@ -298,6 +294,12 @@ section {
 @media (max-width: 520px) {
   .cursor {
     opacity: 0;
+  }
+  .intro .intro_wrapper .inFix {
+    text-wrap: wrap;
+  }
+  .intro .intro_wrapper .inFill {
+    text-wrap: wrap;
   }
 }
 nav {

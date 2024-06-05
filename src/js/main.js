@@ -69,7 +69,7 @@ export function pageReveal() {
 
   loader.to(".inFill", {
     width: "100%",
-    duration: 2,
+    duration: 1.5,
     delay: 0.2,
   });
 
