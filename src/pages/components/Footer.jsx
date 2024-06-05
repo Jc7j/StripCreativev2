@@ -13,8 +13,8 @@ export default function Footer() {
               have an <br /> idea?
             </h1>
           </div>
-          <Link href="contact.html" className="btn focus" data-magnetic="">
-            Contact Us
+          <Link href="contact.html" className="btn focus" data-magnetic>
+            <span>Contact Us</span>
           </Link>
         </div>
         {/* <div className="wrapper focus mT5">

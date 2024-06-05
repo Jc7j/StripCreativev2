@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import Head from "next/head";
 import Image from "next/image";
@@ -54,19 +54,14 @@ export default function Home() {
       marquee();
       mouseMoveDribble();
     }
+
+    if (typeof window === 'undefined') {
+      console.log('window undeifneddd')
+    }
   }, []);
 
   return (
     <>
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Strip Creative</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
-      </Head>
-
-      <>
-        {/* Intro */}
         <section className="intro">
           <div className="intro_wrapper">
             <h1 className="inFix">Strip Creative</h1>
@@ -86,8 +81,7 @@ export default function Home() {
               <h2>Strip Creative</h2>
             </Link>
             <div className="hamburger">
-              <p>menu</p>
-              <div className="toggle focus" data-magnetic="">
+              <div className="toggle focus" data-magnetic>
                 <span className="top" />
                 <span className="bottom" />
               </div>
@@ -120,7 +114,8 @@ export default function Home() {
               {/* <Link href="tel:+011234567890" className="focus">
           +01 1234567890
         </a> */}
-              <div className="social_cnt">
+        {/* Causing Hydration Errors */}
+              {/* <div className="social_cnt">
                 <Link href="https://www.instagram.com" target="_blank">
                   <Image
                     width={0}
@@ -129,7 +124,6 @@ export default function Home() {
                     src="/assets/instagram.svg"
                     alt="instagram"
                     loading="lazy"
-                    data-magnetic=""
                   />
                 </Link>
                 <Link href="https://www.facebook.com" target="_blank">
@@ -140,7 +134,6 @@ export default function Home() {
                     src="/assets/facebook.svg"
                     alt="facebook"
                     loading="lazy"
-                    data-magnetic=""
                   />
                 </Link>
                 <Link href="https://www.linkedin.com" target="_blank">
@@ -151,7 +144,6 @@ export default function Home() {
                     src="/assets/linkedin.svg"
                     alt="linkedin"
                     loading="lazy"
-                    data-magnetic=""
                   />
                 </Link>
                 <Link href="https://dribbble.com" target="_blank">
@@ -162,7 +154,6 @@ export default function Home() {
                     src="/assets/dribble.svg"
                     alt="dribble"
                     loading="lazy"
-                    data-magnetic=""
                   />
                 </Link>
                 <Link href="https://www.behance.net" target="_blank">
@@ -173,10 +164,9 @@ export default function Home() {
                     src="/assets/behance.svg"
                     alt="behance"
                     loading="lazy"
-                    data-magnetic=""
                   />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -191,6 +181,5 @@ export default function Home() {
           <Footer />
         </div>
       </>
-    </>
   );
 }

@@ -27,18 +27,18 @@ export function animateNav() {
     delay: -1,
   });
 
-  tl.staggerFrom(
-    ".menu a",
-    0.3,
-    { y: 20, opacity: 0, ease: Expo.ease, delay: -0.5 },
-    0.1,
-  );
-  tl.staggerFrom(
-    ".social_cnt img",
-    0.5,
-    { y: 20, opacity: 0, ease: Expo.ease, delay: -0.7 },
-    0.2,
-  );
+  // tl.staggerFrom(
+  //   ".menu a",
+  //   0.3,
+  //   { y: 20, opacity: 0, ease: Expo.ease, delay: -0.5 },
+  //   0.1,
+  // );
+  // tl.staggerFrom(
+  //   ".social_cnt img",
+  //   0.5,
+  //   { y: 20, opacity: 0, ease: Expo.ease, delay: -0.7 },
+  //   0.2,
+  // );
 
   tl.reverse();
 

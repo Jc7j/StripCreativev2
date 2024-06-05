@@ -32,7 +32,7 @@ export default function Document() {
           src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
         ></script>
         {/* <!-- Custom --> */}
-        <script async src="js/main.js" type="module" defer></script>
+        {/* <script async src="src/js/main.js" type="module" defer></script> */}
         {/* <!-- CSS --> */}
         {/* <!-- Locomotive --> */}
         <link

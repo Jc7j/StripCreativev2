@@ -12,7 +12,7 @@ export default function Hero() {
           expectations.
         </p>
         <Link href="works.html" className="btn focus mT2" data-magnetic="">
-          <>View Plans</>
+          <span>View Plans</span>
         </Link>
       </div>
     </header>
