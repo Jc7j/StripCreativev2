@@ -1,5 +1,10 @@
 export function LocomotiveJs() {
   let locoScroll;
+  const mainElement = document.querySelector("#main");
+  if (!mainElement) {
+    console.error("Element with ID 'main' not found.");
+    return;
+  }
   locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
