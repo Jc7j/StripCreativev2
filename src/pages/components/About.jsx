@@ -13,8 +13,8 @@ export default function About() {
               who <br /> we are
             </h1>
           </div>
-          <Link href="about.html" className="btn focus" data-magnetic="">
-            About Us
+          <Link href="about.html" className="btn focus" data-magnetic>
+            <span>About Us</span>
           </Link>
         </div>
         <div className="txt mT2">

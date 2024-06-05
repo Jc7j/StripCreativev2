@@ -11,7 +11,7 @@ export default function Hero() {
           website that not only meets but exceeds yours and your customers
           expectations.
         </p>
-        <Link href="works.html" className="btn focus mT2" data-magnetic="">
+        <Link href="#pricing" className="btn focus mT2" data-magnetic>
           <span>View Plans</span>
         </Link>
       </div>

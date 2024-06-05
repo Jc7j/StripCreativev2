@@ -16,7 +16,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      
+
       {/* Fullscreen Nav*/}
       <div className="menu">
         <div id="container">
@@ -39,7 +39,7 @@ export default function Navbar() {
           </div>
           <div className="right">
             <Link href="mailto:info@innovise.com" className="focus">
-            jason@stripcreative.design
+              jason@stripcreative.design
             </Link>
             {/* <Link href="tel:+011234567890" className="focus">
           +01 1234567890

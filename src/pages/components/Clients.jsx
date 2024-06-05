@@ -25,7 +25,7 @@ export default function Clients() {
         <div className="swiper-wrapper focus">
           <div className="swiper-slide">
             <div className="top">
-              <h2>&quot;</h2>
+              <h2>“</h2>
               <p>
                 They are experts in their field, easy to work with, and quick to
                 deliver the work I requested. Their expertise significantly
@@ -40,7 +40,7 @@ export default function Clients() {
           </div>
           <div className="swiper-slide">
             <div className="top">
-              <h2>&quot;</h2>
+              <h2>“</h2>
               <p>
                 Having to pivot from designing my landing and marketing pages to
                 a custom web application in an efficient manner was something I
@@ -55,7 +55,7 @@ export default function Clients() {
           </div>
           <div className="swiper-slide">
             <div className="top">
-              <h2>&quot;</h2>
+              <h2>“</h2>
               <p>
                 Jason is such a pleasure to work with! As a growing business, he
                 helped me to create an effective tool to keep track of inventory

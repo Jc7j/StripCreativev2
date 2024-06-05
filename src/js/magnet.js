@@ -1,5 +1,4 @@
 export function magneticHover() {
-  document.addEventListener("DOMContentLoaded", () => {
     const elements = document.querySelectorAll("[data-magnetic]");
 
     elements.forEach((el) => {
@@ -51,5 +50,4 @@ export function magneticHover() {
         el.style.transform = `translate(${newX}px, ${newY}px)`;
       }
     });
-  });
 }

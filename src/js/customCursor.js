@@ -1,5 +1,4 @@
-export const cursor = () => {
-  document.addEventListener("DOMContentLoaded", () => {
+export function cursor() {
     const cursor = document.querySelector(".cursor");
     const moveCursor = (e) =>
       gsap.to(cursor, {
@@ -9,7 +8,7 @@ export const cursor = () => {
         ease: "Power1.out",
       });
 
-    document.addEventListener("mousemove", moveCursor);
+      document.addEventListener("mousemove", moveCursor);
     document.addEventListener("mouseenter", () =>
       gsap.to(cursor, { duration: 0.3, scale: 1, ease: "Power1.out" }),
     );
@@ -43,5 +42,4 @@ export const cursor = () => {
 
     applyCursorEffect(links, 5);
     applyCursorEffect(headings, 15);
-  });
-};
+}
