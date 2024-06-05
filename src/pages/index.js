@@ -23,6 +23,7 @@ import CustomCursor from "./components/CustomCursor";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Process from "./components/Process";
+import Pricing from "./components/Pricing";
 
 export default function Home() {
   useEffect(() => {
@@ -78,8 +79,9 @@ export default function Home() {
         <About />
         <Services />
         <Clients />
-        <Process />
         <Marquee />
+        <Process />
+        <Pricing />
         <Footer />
       </div>
     </>

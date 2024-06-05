@@ -11,6 +11,7 @@ export function LocomotiveJs() {
     document.querySelector("#main"),
   );
 
+  gsap.registerPlugin(ScrollTrigger);
   locoScroll.on("scroll", ScrollTrigger.update); // Update ScrollTrigger on Locomotive Scroll event
 
   ScrollTrigger.scrollerProxy("#main", {

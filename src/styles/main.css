@@ -1080,6 +1080,26 @@ footer .full h1 {
     gap: 0.6rem;
   }
 }
+
+.pricing {
+  padding: 12rem 0;
+}
+
+.pricing #container {
+  height: 100%;
+}
+
+.pricing #container .txt {
+  width: 100%;
+  max-width: 620px;
+}
+
+@media (max-width: 520px) {
+  .pricing {
+    padding: 8rem 0;
+  }
+}
+
 .awwards #container h5 {
   max-width: 800px;
   width: 100%;
