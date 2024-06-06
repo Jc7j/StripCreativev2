@@ -61,7 +61,7 @@ export default function OneTimePriceCard() {
 
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
           <Link
-            href="https://buy.stripe.com/9AQ9AD4vZ6dj9na3cf"
+            href="https://cal.com/strip-creative/15min"
             data-magnetic
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full !w-fit"
           >
@@ -70,7 +70,8 @@ export default function OneTimePriceCard() {
           <p>or</p>
           <Link
             className={`btn focus`}
-            href="https://cal.com/strip-creative/15min"
+            aria-label="email us"
+            href="mailto:jason@stripcreative.design?subject=I'd%20like%20to%20partner%20with%20you.%20How%20can%20we%20start?"
             target="_blank"
             data-magnetic
           >

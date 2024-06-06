@@ -37,8 +37,13 @@ export default function About() {
               who <br /> we are
             </h1>
           </div>
-          <Link href="about.html" className="btn focus" data-magnetic>
-            <span>About Us</span>
+          <Link
+            href="https://cal.com/strip-creative/15min"
+            target="_blank"
+            className="btn focus !w-fit"
+            data-magnetic
+          >
+            <span>Book a discovery call</span>
           </Link>
         </div>
         <div className="txt mT2">

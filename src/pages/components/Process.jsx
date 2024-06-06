@@ -24,8 +24,8 @@ export default function Process() {
               During this discovery phase, our team starts a thorough research
               and analysis to understand your project in detail. We employ
               numerous research methods to uncover valuable insights about your
-              competitors and target audience.This process allows us to gather
-              data that informs our design and development decisions, ensuring
+              competitors and target audience. This process allows us to gather
+              data that informs our design and d evelopment decisions, ensuring
               our methods and solutions are aligned with your business
               objectives.
             </p>
@@ -45,11 +45,7 @@ export default function Process() {
           </div>
           <div className="card">
             <h5>3. Technology</h5>
-            <h3 className="mT2">
-              Develop
-              <br />
-              ment
-            </h3>
+            <h3 className="mT2">Development</h3>
             <p>
               Our talented developers focus on translating the designs into
               working versions on our staging servers. By collaborating closely,
@@ -81,10 +77,8 @@ export default function Process() {
               website on our staging server, we begin the migration process of
               deploying the website onto your live server. We run our final
               check list to make sure everything runs smoothly before we finally
-              push the “go live” button. We will provide you with content
-              management training, so you have complete peace of mind, knowing
-              that you can use the website to its full potential. We also
-              provide aftercare website support if required.
+              push the “go live” button. We also provide aftercare website
+              support if required.
             </p>
           </div>
         </div>

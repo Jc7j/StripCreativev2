@@ -11,8 +11,12 @@ export default function Hero() {
           website that not only meets but exceeds yours and your customers
           expectations.
         </p>
-        <Link href="#pricing" className="btn focus mT2" data-magnetic>
-          <span>View Plans</span>
+        <Link
+          href="mailto:jason@stripcreative.design?subject=I'd%20like%20to%20partner%20with%20you.%20How%20can%20we%20start?"
+          className="btn focus mT2 !w-fit"
+          data-magnetic
+        >
+          <span>Book a discovery call</span>
         </Link>
       </div>
     </header>

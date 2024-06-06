@@ -13,7 +13,7 @@ export default function Services() {
           </div>
           <h5 className="">
             Elevating digital experiences with expertly crafted web development
-            and intuitive UI/UX design.
+            and intuitive user experience & user interface design.
           </h5>
         </div>
         <div className="sticky_scrolling">
@@ -26,9 +26,9 @@ export default function Services() {
             </p>
             <div className="cat mT2">
               <h5> Web Design </h5>
-              <h5>App Design</h5>
-              <h5>Visual Design</h5>
-              <h5>Prototypes</h5>
+              <h5> Web App Design</h5>
+              <h5>User Experience Design</h5>
+              <h5>User Interface Design</h5>
               <h5>Interactions</h5>
             </div>
           </div>
@@ -41,14 +41,14 @@ export default function Services() {
               code line at a time.
             </p>
             <div className="cat mT2">
-              <h5> HTML &amp; SCSS </h5>
+              <h5> HTML &amp; CSS </h5>
+              <h5>JavaScript</h5>
               <h5>Tailwind</h5>
               <h5>React JS</h5>
               <h5>Next JS</h5>
-              <h5>Express JS</h5>
+              <h5>React Native JS</h5>
               <h5>Node JS</h5>
-              <h5>Framer</h5>
-              <h5>Webflow</h5>
+              <h5>Database Management</h5>
             </div>
           </div>
           <div className="card">
@@ -63,11 +63,10 @@ export default function Services() {
               <h5> Strategy </h5>
               <h5> Typography </h5>
               <h5> Identity </h5>
-              <h5> Style guide </h5>
             </div>
           </div>
           <div className="card">
-            <h3>SEO</h3>
+            <h3>SEO & Performance</h3>
             <p>
               Elevate your brand identity with our expert branding services,
               merging your unique vision with our creative prowess to create

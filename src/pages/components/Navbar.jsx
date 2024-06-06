@@ -8,12 +8,12 @@ export default function Navbar() {
           <Link href="/">
             <h2>Strip Creative</h2>
           </Link>
-          <div className="hamburger">
+          {/* <div className="hamburger">
             <div className="toggle focus" data-magnetic>
               <span className="top" />
               <span className="bottom" />
             </div>
-          </div>
+          </div> */}
         </div>
       </nav>
 

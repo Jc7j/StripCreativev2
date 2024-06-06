@@ -3,7 +3,7 @@ import OneTimePriceCard from "./OneTimePriceCard";
 
 export default function Pricing() {
   return (
-    <section className="pricing">
+    <section className="pricing" id="pricing">
       <div id="container">
         <div className="heading">
           <h1 className="fade">
