@@ -58,7 +58,7 @@ export default function About() {
           <InfiniteMovingCards
             items={Images}
             direction="left"
-            speed="slow"
+            speed="normal"
             pauseOnHover={false}
             className="mt-12 block"
           />
