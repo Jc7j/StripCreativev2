@@ -63,6 +63,7 @@ export default function OneTimePriceCard() {
             aria-label="book an intro call"
             href="https://cal.com/strip-creative/15min"
             data-magnetic
+            target="_blank"
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full !w-fit"
           >
             <span>Book an intro call</span>
