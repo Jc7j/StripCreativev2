@@ -21,13 +21,13 @@ export default function MonthlyPriceCard() {
           <h5 className="text-3xl font-medium">Membership</h5>
           <div className="px-3 bg-rose-50 rounded-full w-auto">
             <div className="text-rose-500 text-center text-sm font-medium leading-normal">
-              5 spots remaining
+              4 spots remaining
             </div>
           </div>
         </span>
 
         <div className="flex items-end mt-6">
-          <p className="text-6xl text-header">$4,997</p>
+          <p className="text-6xl text-header">$7,997</p>
           <p className="text-3xl text-header">/mo</p>
         </div>
         <p className="text-md mt-4">
@@ -56,7 +56,7 @@ export default function MonthlyPriceCard() {
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
           <Link
             aria-label="get started now"
-            href="https://buy.stripe.com/9AQ9AD4vZ6dj9na3cf"
+            href="https://buy.stripe.com/5kA6or1jNgRXdDqaEJ"
             data-magnetic
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full"
           >

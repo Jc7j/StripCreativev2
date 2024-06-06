@@ -3,14 +3,14 @@ import React from "react";
 
 const hover = "shadow-sm hover:shadow-lg transition-all duration-300";
 const features = [
-  "Customized Scope per Project",
+  "Customized Scope",
   "Specialized support",
   "Fixed deadlines",
   "Unlimited Revisions",
   "Unlimited Requests",
   "Tailored to specific needs",
   "Flexible payment options",
-  "Managed via Slack & Notion",
+  "Async + Slack",
 ];
 
 export default function OneTimePriceCard() {
@@ -36,15 +36,14 @@ export default function OneTimePriceCard() {
           <p className="text-6xl">$7,997</p>
         </div>
         <p className="text-md mt-4">
-          Idea to completion swiftly & with high quality. 50% advance, 50% on
-          final.
+          Idea to completion swiftly. 50% advance, 50% on final.
         </p>
         <hr className="mt-4 mb-8 border-[#dbdbdb]" />
 
         <div>
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
-            Businesses needing ongoing high quality and fast support
+            Businesses needing a landing or marketing page fast.
           </p>
         </div>
 

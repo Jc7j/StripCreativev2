@@ -1,13 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const FAQs = [
   {
     q: "What's the Strip Creative delivery process?",
     a: "The Strip Creative process is straightforward. It starts with a kickoff call to understand your goals and inspiration. After that, you provide feedback while we take care of the rest, keeping you updated every two days via Slack or video.",
+  },
+  {
+    q: "Why would't I just hire a full-time designer or developer?",
+    a: "The cost and time to find and hire one exceeds $100k+, requring locked in contracts, benefits, vacation days, and more. We offer no contracts, senior level designs, senior level software develpment, and the ability to cancel your membership whenever you have no ongoing requests. We partner with you for as long as you need us and every signle dollar you spend with us is dedicated to active work. ",
+  },
+  {
+    q: "Who owns the work?",
+    a: "From the designs, code and hosting, the work is owned by you. We only provide the tools and support to get the work done and help get your website out swiftly with high quality.",
   },
   {
     q: "What happens after I subscribe to the membership?",
@@ -23,7 +30,7 @@ const FAQs = [
   },
   {
     q: "Can i pause or cancel my membership?",
-    a: "Yes! You can pause or cancel your membership anytime. We wouldnt want you to pay for our services when you’re not using it.",
+    a: "Yes! You can pause or cancel your membership anytime. We wouldnt want you to pay for our services when you’re not using it. You'll find access to handle your billing in the notion board we provide to you!",
   },
 ];
 
