@@ -62,7 +62,7 @@ export default function Home() {
           content="Transform your vision into a stunning, functional website with Strip Creative."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/assets/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

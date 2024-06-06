@@ -7,6 +7,7 @@ export default function Navbar() {
         <div id="container">
           <Link href="/">
             <h2>Strip Creative</h2>
+            <p className="opacity-30">est. 2024</p>
           </Link>
           {/* <div className="hamburger">
             <div className="toggle focus" data-magnetic>
@@ -14,6 +15,13 @@ export default function Navbar() {
               <span className="bottom" />
             </div>
           </div> */}
+          <Link
+            href="mailto:jason@stripcreative.design?subject=I'd%20like%20to%20partner%20with%20you.%20How%20can%20we%20start?"
+            className="btn focus mT2 !w-fit"
+            data-magnetic
+          >
+            <span>Book an intro call</span>
+          </Link>
         </div>
       </nav>
 
