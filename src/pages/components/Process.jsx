@@ -45,33 +45,23 @@ export default function Process() {
           </div>
           <div className="card">
             <h5>3. Technology</h5>
-            <h3 className="mT2">Development</h3>
+            <h3 className="mT2">Development & Testing</h3>
             <p>
               Our talented developers focus on translating the designs into
-              working versions on our staging servers. By collaborating closely,
-              our designers and developers facilitate a smooth handover for
-              integration of the designs into the development process. Our goal
-              is to craft designs that not only look visually great but are also
-              practical and ready for integration, ensuring a smooth transition
-              from design to development.
+              working versions on our staging servers. Our goal is to craft
+              designs that not only look visually great but are also practical
+              and ready for integration, ensuring a smooth transition from
+              design to development. With a meticulous approach, we ensure that
+              the website works and looks great across all platforms, by
+              physically testing on all screen resolutions, cross-browser,
+              including mobile devices. Our goal is to create websites that are
+              functional and user friendly to increase customer conversion and
+              retention.
             </p>
           </div>
           <div className="card">
-            <h5>4. Testing</h5>
-            <h3 className="mT2">platform</h3>
-            <p>
-              With a meticulous approach, we ensure that the website works and
-              looks great across all platforms, by physically testing on all
-              screen resolutions, cross-browser, including mobile and tablet
-              devices. This is a very intricate process where we meticulously
-              fine-tune the final product. Our goal is to create websites that
-              are functional and user friendly to increase customer conversion
-              and retention.
-            </p>
-          </div>
-          <div className="card">
-            <h5>5. Deployment</h5>
-            <h3 className="mT2">launch</h3>
+            <h5>4. Deployment</h5>
+            <h3 className="mT2">Launch</h3>
             <p>
               When you have fully tested and approved the final version of the
               website on our staging server, we begin the migration process of
@@ -79,6 +69,17 @@ export default function Process() {
               check list to make sure everything runs smoothly before we finally
               push the “go live” button. We also provide aftercare website
               support if required.
+            </p>
+          </div>
+          <div className="card">
+            <h5>5. Retainer</h5>
+            <h3 className="mT2">Ongoing Support</h3>
+            <p>
+              Ensure your website stays up-to-date and runs smoothly with our
+              retainer services. We offer ongoing support, maintenance, and
+              updates to keep your site secure, functional, and aligned with
+              your business goals. Enjoy peace of mind knowing our team is
+              always here to help with any changes or improvements you need.
             </p>
           </div>
         </div>

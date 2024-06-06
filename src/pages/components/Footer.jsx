@@ -3,6 +3,15 @@
 import { useState } from "react";
 import Link from "next/link";
 
+// {
+//   q: "What happens after I subscribe to the membership?",
+//   a: "You'll get a welcome email with access to our private slack channel, notion board and a link to setup a kickoff call. The kickoff call is for us to get to know each other and your ideas/projects. That way, we know your visions the best so we can transform them into reality.",
+// },
+// {
+//   q: "What happens after I setup a discovery call with immersive?",
+//   a: "After we have our immersive discovery call and we're both a fit to our needs, you'll have the same access to our membership and we'll get straight into working on your website. You'll have priority support, so if you have an urgency to finish something from idea to launch we'll get it done.",
+// },
+
 const FAQs = [
   {
     q: "What's the Strip Creative delivery process?",
@@ -17,20 +26,16 @@ const FAQs = [
     a: "From the designs, code and hosting, the work is owned by you. We only provide the tools and support to get the work done and help get your website out swiftly with high quality.",
   },
   {
-    q: "What happens after I subscribe to the membership?",
-    a: "You’ll get a welcome email with access to our private slack channel, notion board and a link to setup a kickoff call. The kickoff call is for us to get to know each other and your ideas/projects. That way, we know your visions the best so we can transform them into reality.",
-  },
-  {
-    q: "What happens after I setup a discovery call with immersive?",
-    a: "After we have our immersive discovery call, you’ll have the same access to our membership and we’ll get straight into working on your website. You’ll have priority support, so if you have an urgency to finish something from idea to launch we’ll get it done.",
+    q: "I have a smaller project that can't afford to pay for a full membership?",
+    a: "That's fine! Feel free to email us or book a call and we can discuss something that aligns with your needs.",
   },
   {
     q: "What if I dont like my designs?",
-    a: "Not a problem. We’ll revise it over and over again until its how you envisioned it.",
+    a: "Not a problem. We'll revise it over and over again until its how you envisioned it.",
   },
   {
     q: "Can i pause or cancel my membership?",
-    a: "Yes! You can pause or cancel your membership anytime. We wouldnt want you to pay for our services when you’re not using it. You'll find access to handle your billing in the notion board we provide to you!",
+    a: "Yes! You can pause or cancel your membership anytime. We wouldnt want you to pay for our services when you're not using it. You'll find access to handle your billing in the notion board we provide to you!",
   },
 ];
 
@@ -39,22 +44,39 @@ function FAQ({ question, answer }) {
 
   return (
     <button className="socialLink !flex-col" onClick={() => setIsOpen(!isOpen)}>
-      <div className="flex justify-between w-full">
-        <h5>{question}</h5>
-        <svg
-          width="65"
-          height="64"
-          viewBox="0 0 65 64"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M32.4998 20.4053V42.7241M43.6592 31.5647H21.3403"
-            stroke="white"
-            strokeWidth="2.05664"
-            strokeLinecap="round"
-          />
-        </svg>
+      <div className="flex justify-between w-full items-center">
+        <h5 className="flex-1">{question}</h5>
+        {!isOpen ? (
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 8V16M16 12H8"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
+        ) : (
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 18L18 6M6 6L18 18"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
+        )}
       </div>
       <p className={`!border-none ${isOpen ? "block mt-4" : "hidden"}`}>
         {answer}
