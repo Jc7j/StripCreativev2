@@ -1527,9 +1527,9 @@ header #container p {
 
 @media (min-width: 1040px) {
   header #container h2 {
-    max-width: 60%;
+    max-width: 70%;
   }
   header #container p {
-    max-width: 50%;
+    max-width: 60%;
   }
 }
