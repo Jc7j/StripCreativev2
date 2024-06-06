@@ -12,8 +12,9 @@ export default function Process() {
             </h1>
           </div>
           <h5>
-            Our seasoned team combines cutting-edge UI/UX design, branding
-            expertise, and SEO strategies to craft bespoke digital experiences.
+            Our team, led by industry-experienced senior designers and
+            developers, ensures your project is handled with exceptional care
+            and precision, delivering outstanding results every time.
           </h5>
         </div>
         <div className="sticky_scrolling">

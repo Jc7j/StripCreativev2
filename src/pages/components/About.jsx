@@ -1,5 +1,10 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import InfiniteMovingCards from "./infinite-moving-cards";
+import { useMediaQuery } from "react-responsive";
+import Image from "next/image";
 
 const Images = [
   {
@@ -25,6 +30,18 @@ const Images = [
 ];
 
 export default function About() {
+  const [mounted, setMounted] = useState(false);
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
+  // Fixes hydration error
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null; // or a loading spinner
+  }
+
   return (
     <section className="about">
       <div id="container">
@@ -49,12 +66,26 @@ export default function About() {
         </div>
         <div className="txt mT2">
           <h5>
-            Strip Creative stands at the forefront of web design and
-            development, specializing in user interface and user experience
-            design, alongside web development.
+            Strip Creative stands at the forefront of website & web application
+            design and development, specializing in user interface and user
+            experience design.
           </h5>
         </div>
-        <div className="about_card mT5">
+        {isMobile ? (
+          <span className="flex flex-col gap-4 mT5">
+            {Images.map((image) => (
+              <Image
+                src={image.src}
+                alt={image.alt}
+                key={image.alt}
+                width={0}
+                height={0}
+                sizes="(max-width: 768px) 100vw"
+                className="object-contain h-full w-auto drop-shadow-sm"
+              />
+            ))}
+          </span>
+        ) : (
           <InfiniteMovingCards
             items={Images}
             direction="left"
@@ -62,7 +93,7 @@ export default function About() {
             pauseOnHover={false}
             className="mt-12 block"
           />
-        </div>
+        )}
       </div>
     </section>
   );

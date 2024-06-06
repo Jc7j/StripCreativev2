@@ -45,6 +45,6 @@ export function cursor() {
     applyCursorEffect(headings, 15);
   } else {
     // Optionally, you can log a message or handle the mobile case differently here
-    console.log("Sticky scroll animations disabled on mobile devices.");
+    console.log("Custom Cursor animations disabled on mobile devices.");
   }
 }

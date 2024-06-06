@@ -53,6 +53,6 @@ export function magneticHover() {
     });
   } else {
     // Optionally, you can log a message or handle the mobile case differently here
-    console.log("Sticky scroll animations disabled on mobile devices.");
+    console.log("Magnetic animations disabled on mobile devices.");
   }
 }
