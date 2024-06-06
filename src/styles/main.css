@@ -507,13 +507,24 @@ nav #container .hamburger .toggle span.bottom {
   border-radius: 50px;
   transition: all 0.2s linear;
 }
-.btn:hover::before {
+/* .btn:hover::before {
   height: 80px;
   width: 80px;
   background: #b9e9b3;
   filter: blur(10px);
   scale: 2;
   border-radius: 50%;
+} */
+
+@media (min-width: 1000px) {
+  .btn:hover::before {
+    height: 80px;
+    width: 80px;
+    background: #b9e9b3;
+    filter: blur(10px);
+    scale: 2;
+    border-radius: 50%;
+  }
 }
 
 footer {

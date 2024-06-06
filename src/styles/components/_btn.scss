@@ -24,14 +24,25 @@
     transition: all 0.2s linear;
   }
 
-  &:hover {
-    &::before {
-      height: 80px;
-      width: 80px;
-      background: $primary;
-      filter: blur(10px);
-      scale: 2;
-      border-radius: 50%;
-    }
+  // &:hover {
+  //   &::before {
+  //     height: 80px;
+  //     width: 80px;
+  //     background: $primary;
+  //     filter: blur(10px);
+  //     scale: 2;
+  //     border-radius: 50%;
+  //   }
+  // }
+}
+
+@media (min-width: 1000px) {
+  .btn:hover::before {
+    height: 80px;
+    width: 80px;
+    background: #b9e9b3;
+    filter: blur(10px);
+    scale: 2;
+    border-radius: 50%;
   }
 }
