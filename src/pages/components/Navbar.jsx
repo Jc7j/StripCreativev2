@@ -17,10 +17,10 @@ export default function Navbar() {
           </div> */}
           <Link
             href="mailto:jason@stripcreative.design?subject=I'd%20like%20to%20partner%20with%20you.%20How%20can%20we%20start?"
-            className="btn focus mT2 !w-fit"
+            className="btn focus !w-fit !py-[0.6rem] !px-[1.4rem]"
             data-magnetic
           >
-            <span>Book an intro call</span>
+            <span className="!text-sm">Book a call</span>
           </Link>
         </div>
       </nav>
@@ -46,7 +46,11 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="right">
-            <Link href="mailto:info@innovise.com" className="focus">
+            <Link
+              aria-label="email us"
+              href="mailto:info@innovise.com"
+              className="focus"
+            >
               jason@stripcreative.design
             </Link>
             {/* <Link href="tel:+011234567890" className="focus">

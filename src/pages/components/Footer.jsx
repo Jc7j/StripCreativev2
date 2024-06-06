@@ -69,7 +69,12 @@ export default function Footer() {
               have an <br /> idea?
             </h1>
           </div>
-          <Link href="contact.html" className="btn focus" data-magnetic>
+          <Link
+            aria-label="book an intro call"
+            href="https://cal.com/strip-creative/15min"
+            className="btn focus"
+            data-magnetic
+          >
             <span>Contact Us</span>
           </Link>
         </div>

@@ -55,6 +55,7 @@ export default function MonthlyPriceCard() {
 
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
           <Link
+            aria-label="get started now"
             href="https://buy.stripe.com/9AQ9AD4vZ6dj9na3cf"
             data-magnetic
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full"
@@ -63,6 +64,7 @@ export default function MonthlyPriceCard() {
           </Link>
           <p className="">or</p>
           <Link
+            aria-label="book an intro call"
             className={`btn focus !w-fit`}
             href="https://cal.com/strip-creative/15min"
             target="_blank"
