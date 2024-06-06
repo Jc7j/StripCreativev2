@@ -38,6 +38,7 @@ export default function About() {
             </h1>
           </div>
           <Link
+            aria-label="book an intro call"
             href="https://cal.com/strip-creative/15min"
             target="_blank"
             className="btn focus !w-fit"

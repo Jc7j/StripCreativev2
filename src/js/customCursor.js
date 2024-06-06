@@ -1,4 +1,5 @@
 export function cursor() {
+  if (window.innerWidth > 1000) {
   const cursor = document.querySelector(".cursor");
   const moveCursor = (e) =>
     gsap.to(cursor, {
@@ -42,4 +43,8 @@ export function cursor() {
 
   applyCursorEffect(links, 5);
   applyCursorEffect(headings, 15);
+} else {
+  // Optionally, you can log a message or handle the mobile case differently here
+  console.log("Sticky scroll animations disabled on mobile devices.");
+}
 }
