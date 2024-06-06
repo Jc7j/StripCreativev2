@@ -21,13 +21,13 @@ export default function MonthlyPriceCard() {
           <h5 className="text-3xl font-medium">Membership</h5>
           <div className="px-3 bg-rose-50 rounded-full w-auto">
             <div className="text-rose-500 text-center text-sm font-medium leading-normal">
-              4 spots remaining
+              3 spots remaining
             </div>
           </div>
         </span>
 
         <div className="flex items-end mt-6">
-          <p className="text-6xl text-header">$6,997</p>
+          <p className="text-6xl text-header">$7k</p>
           <p className="text-3xl text-header">/mo</p>
         </div>
         <p className="text-md mt-4">

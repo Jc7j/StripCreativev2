@@ -33,7 +33,7 @@ export default function OneTimePriceCard() {
 
         <div className="flex items-end mt-6 gap-2 text-3xl">
           <p>starting at</p>
-          <p className="text-6xl">$6,997</p>
+          <p className="text-6xl">$8k</p>
         </div>
         <p className="text-md mt-4">
           Idea to completion swiftly. 50% advance, 50% on final.
