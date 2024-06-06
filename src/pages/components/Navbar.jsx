@@ -16,7 +16,7 @@ export default function Navbar() {
             </div>
           </div> */}
           <Link
-            href="mailto:jason@stripcreative.design?subject=I'd%20like%20to%20partner%20with%20you.%20How%20can%20we%20start?"
+            href="https://cal.com/strip-creative/15min"
             className="btn focus !w-fit !py-[0.6rem] !px-[1.4rem]"
             data-magnetic
           >

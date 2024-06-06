@@ -71,7 +71,7 @@ export default function About() {
             experience design.
           </h5>
         </div>
-        {isMobile ? (
+        {/* {isMobile ? (
           <span className="flex flex-col gap-4 mT5">
             {Images.map((image) => (
               <Image
@@ -85,7 +85,7 @@ export default function About() {
               />
             ))}
           </span>
-        ) : (
+        ) : ( */}
           <InfiniteMovingCards
             items={Images}
             direction="left"
@@ -93,7 +93,7 @@ export default function About() {
             pauseOnHover={false}
             className="mt-12 block"
           />
-        )}
+        {/* )} */}
       </div>
     </section>
   );

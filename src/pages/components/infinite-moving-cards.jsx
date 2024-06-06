@@ -11,6 +11,8 @@ const InfiniteMovingCards = ({
   pauseOnHover = true,
   className,
 }) => {
+  const [mounted, setMounted] = useState(false);
+
   const containerRef = React.useRef(null);
   const scrollerRef = React.useRef(null);
 
@@ -63,7 +65,12 @@ const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
+    setMounted(true);
   }, [addAnimation]);
+
+  if (!mounted) {
+    return null; // or a loading spinner
+  }
 
   return (
     <div
