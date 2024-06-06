@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useMediaQuery } from "react-responsive";
 import InfiniteMovingCards from "./infinite-moving-cards";
 
 const Images = [
@@ -25,6 +26,7 @@ const Images = [
 ];
 
 export default function About() {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
   return (
     <section className="about">
       <div id="container">
@@ -58,7 +60,7 @@ export default function About() {
           <InfiniteMovingCards
             items={Images}
             direction="left"
-            speed="normal"
+            speed={isMobile ? "fast" : "normal"}
             pauseOnHover={false}
             className="mt-12 block"
           />
