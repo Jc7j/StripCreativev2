@@ -520,8 +520,8 @@ nav #container .hamburger .toggle span.bottom {
   .btn:hover::before {
     height: 80px;
     width: 80px;
-    background: #b9e9b3;
-    filter: blur(10px);
+    /* background: #b9e9b3;
+    filter: blur(10px); */
     scale: 2;
     border-radius: 50%;
   }
