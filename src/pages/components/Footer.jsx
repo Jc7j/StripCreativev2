@@ -15,7 +15,11 @@ import Link from "next/link";
 const FAQs = [
   {
     q: "What's the Strip Creative delivery process?",
-    a: "The Strip Creative process is straightforward. It starts with a kickoff call to understand your goals and inspiration. After that, you provide feedback while we take care of the rest, keeping you updated every two days via Slack or video.",
+    a: "The Strip Creative process is straightforward. It starts with a kickoff call to understand your goals and inspiration. After that, you provide feedback while we take care of the rest, keeping you updated every 1-2 days via Slack or video. Providing fast website performance, industry level SEO and scalability is like our second nature. We're here to help you get your website out the door as fast as possible with the help of our team.",
+  },
+  {
+    q: "What's the main difference between Membership and Project-Based?",
+    a: "Both offer the same benefits. Project based is great if you need a high quality landing or marketing page fast and thats all. While membership, we'll also deliver a high quality website fast, but you need ongoing support, improvements or new additions consistently to figure out what works best.",
   },
   {
     q: "Why would't I just hire a full-time designer or developer?",
@@ -23,7 +27,7 @@ const FAQs = [
   },
   {
     q: "Who owns the work?",
-    a: "From the designs, code and hosting, the work is owned by you. We only provide the tools and support to get the work done and help get your website out swiftly with high quality.",
+    a: "We provide hosting packages, but unless you'd like to host it on your own, from the designs, code & hosting, the work is owned by you. We provide the tools and support to get the work done and help get your website out swiftly with high quality.",
   },
   {
     q: "I have a smaller project that can't afford to pay for a full membership?",
