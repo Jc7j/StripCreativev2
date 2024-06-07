@@ -20,7 +20,9 @@ export default function Process() {
         <div className="sticky_scrolling">
           <div className="card">
             <h5>1. Discovery</h5>
-            <h3 className="mT2">research & <br/> on-boarding</h3>
+            <h3 className="mT2">
+              research & <br /> on-boarding
+            </h3>
             <p>
               During this discovery phase, our team starts a thorough research
               and analysis to understand your project in detail. We employ
@@ -28,8 +30,9 @@ export default function Process() {
               competitors and target audience. This process allows us to gather
               data that informs our design and development decisions, ensuring
               our methods and solutions are aligned with your business
-              objectives. We&apos;ll also onboard you to our team and provide you with
-              the necessary tools and resources to kickstart your project.
+              objectives. We&apos;ll also onboard you to our team and provide
+              you with the necessary tools and resources to kickstart your
+              project.
             </p>
           </div>
           <div className="card">

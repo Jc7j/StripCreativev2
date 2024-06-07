@@ -8,8 +8,8 @@ const features = [
   "Fixed deadlines",
   "Unlimited Revisions",
   "Unlimited Requests",
-  "Tailored to specific needs",
-  "Flexible payment options",
+  "Tailored needs",
+  "Flexible Scalability",
   "Async + Slack",
 ];
 

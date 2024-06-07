@@ -27,6 +27,21 @@ export default function Clients() {
             <div className="top">
               <h2>“</h2>
               <p>
+                Jason is such a pleasure to work with! As a growing business, he
+                helped me to create an effective tool to keep track of inventory
+                and invoicing. With his quick response times and frequent
+                updates to how the project was going it was a breeze!
+              </p>
+            </div>
+            <div className="bottom">
+              <h5>Taylor</h5>
+              <p>Property Manager </p>
+            </div>
+          </div>
+          <div className="swiper-slide">
+            <div className="top">
+              <h2>“</h2>
+              <p>
                 They are experts in their field, easy to work with, and quick to
                 deliver the work I requested. Their expertise significantly
                 increased traffic to my website, and their work has made my
@@ -51,21 +66,6 @@ export default function Clients() {
             <div className="bottom">
               <h5>Nelson</h5>
               <p>CEO, Fox Construction Industries</p>
-            </div>
-          </div>
-          <div className="swiper-slide">
-            <div className="top">
-              <h2>“</h2>
-              <p>
-                Jason is such a pleasure to work with! As a growing business, he
-                helped me to create an effective tool to keep track of inventory
-                and invoicing. With his quick response times and frequent
-                updates to how the project was going it was a breeze!
-              </p>
-            </div>
-            <div className="bottom">
-              <h5>Taylor</h5>
-              <p>Property Manager </p>
             </div>
           </div>
         </div>
