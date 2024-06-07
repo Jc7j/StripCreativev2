@@ -7,7 +7,7 @@ export default function Navbar() {
         <div id="container">
           <Link href="/">
             <h2>Strip Creative</h2>
-            <p className="opacity-30">est. 2024</p>
+            <p className="opacity-30">est. 2023</p>
           </Link>
           {/* <div className="hamburger">
             <div className="toggle focus" data-magnetic>
