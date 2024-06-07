@@ -5,10 +5,10 @@ export default function Services() {
         <div className="sticky_scroll">
           <div className="heading">
             <h1 className="fade">
-              We are <br /> good at
+              Our <br /> Services
             </h1>
             <h1 className="fill">
-              We are <br /> good at
+              Our <br /> Services
             </h1>
           </div>
           <h5 className="">
@@ -63,6 +63,7 @@ export default function Services() {
               <h5> Strategy </h5>
               <h5> Typography </h5>
               <h5> Identity </h5>
+              <h5>Style guide</h5>
             </div>
           </div>
           <div className="card">
