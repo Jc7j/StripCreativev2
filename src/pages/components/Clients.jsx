@@ -68,21 +68,6 @@ export default function Clients() {
               <p>Property Manager </p>
             </div>
           </div>
-          {/* <div className="swiper-slide">
-            <div className="top">
-              <h2>&quot;</h2>
-              <p>
-                The challenge of launching a new product in a saturated market
-                was daunting. We needed a partner that could not only design a
-                visually appealing app but also create a compelling brand
-                identity that would resonate with our target audience.
-              </p>
-            </div>
-            <div className="bottom">
-              <h5>Ryan Allen</h5>
-              <p>Product Manager at IBA</p>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

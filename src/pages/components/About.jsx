@@ -43,7 +43,7 @@ export default function About() {
   }
 
   return (
-    <section className="about">
+    <section className="about !p-0">
       <div id="container">
         <div className="heading_cnt">
           <div className="heading">
@@ -93,7 +93,7 @@ export default function About() {
             pauseOnHover={false}
             className="mt-12 block"
           />
-        {/* )} */}
+       {/* )} */}
       </div>
     </section>
   );
