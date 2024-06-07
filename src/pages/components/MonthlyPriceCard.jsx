@@ -24,6 +24,11 @@ export default function MonthlyPriceCard() {
               3 spots remaining
             </div>
           </div>
+          <div className="px-3 bg-green-100 rounded-full w-auto">
+            <p className="text-green-700 text-sm text-center font-medium leading-normal">
+              Most Popular
+            </p>
+          </div>
         </span>
 
         <div className="flex items-end mt-6">
@@ -38,7 +43,7 @@ export default function MonthlyPriceCard() {
         <div>
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
-            Businesses needing ongoing high quality and fast support
+            Businesses needing ongoing high quality and fast product building.
           </p>
         </div>
 
