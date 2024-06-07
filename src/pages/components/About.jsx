@@ -71,29 +71,13 @@ export default function About() {
             experience design.
           </h5>
         </div>
-        {/* {isMobile ? (
-          <span className="flex flex-col gap-4 mT5">
-            {Images.map((image) => (
-              <Image
-                src={image.src}
-                alt={image.alt}
-                key={image.alt}
-                width={0}
-                height={0}
-                sizes="(max-width: 768px) 100vw"
-                className="object-contain h-full w-auto drop-shadow-sm"
-              />
-            ))}
-          </span>
-        ) : ( */}
           <InfiniteMovingCards
             items={Images}
             direction="left"
-            speed="normal"
+            speed={isMobile ? "fast" : "normal"}
             pauseOnHover={false}
             className="mt-12 block"
           />
-       {/* )} */}
       </div>
     </section>
   );
