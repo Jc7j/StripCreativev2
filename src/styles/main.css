@@ -1095,6 +1095,7 @@ footer .full h1 {
 
 .pricing {
   padding: 12rem 0;
+  padding-bottom: 0;
 }
 
 .pricing #container {
@@ -1109,6 +1110,7 @@ footer .full h1 {
 @media (max-width: 520px) {
   .pricing {
     padding: 8rem 0;
+    padding-bottom: 0;
   }
 }
 

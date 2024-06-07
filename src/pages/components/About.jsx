@@ -71,13 +71,13 @@ export default function About() {
             experience design.
           </h5>
         </div>
-          <InfiniteMovingCards
-            items={Images}
-            direction="left"
-            speed={isMobile ? "fast" : "normal"}
-            pauseOnHover={false}
-            className="mt-12 block"
-          />
+        <InfiniteMovingCards
+          items={Images}
+          direction="left"
+          speed={isMobile ? "fast" : "normal"}
+          pauseOnHover={false}
+          className="mt-12 block"
+        />
       </div>
     </section>
   );
