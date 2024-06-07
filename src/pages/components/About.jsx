@@ -48,10 +48,10 @@ export default function About() {
         <div className="heading_cnt">
           <div className="heading">
             <h1 className="fade">
-              Design & <br /> Development <br/>  Agency
+              Design & <br /> Development <br /> Agency
             </h1>
             <h1 className="fill">
-              Design & <br /> Development <br/> Agency
+              Design & <br /> Development <br /> Agency
             </h1>
           </div>
           <Link

@@ -41,13 +41,12 @@ export default function Services() {
               code line at a time.
             </p>
             <div className="cat mT2">
-              <h5> HTML &amp; CSS </h5>
-              <h5>JavaScript</h5>
-              <h5>Tailwind</h5>
-              <h5>React JS</h5>
-              <h5>Next JS</h5>
-              <h5>React Native JS</h5>
-              <h5>Node JS</h5>
+              <h5> HTML &amp; CSS &amp; JavaScript</h5>
+              <h5>React</h5>
+              <h5>Next.JS</h5>
+              <h5>React Native </h5>
+              <h5>Node.JS</h5>
+              <h5>PostgreSQL</h5>
               <h5>Database Management</h5>
             </div>
           </div>
@@ -67,20 +66,22 @@ export default function Services() {
             </div>
           </div>
           <div className="card">
-            <h3>SEO & Performance</h3>
+            <h3>Strategy</h3>
             <p>
-              Elevate your brand identity with our expert branding services,
-              merging your unique vision with our creative prowess to create
-              distinctive, unforgettable brands that stand out in the market.
-              Let&apos;s ensure your brand makes a lasting impression.
+              Our team combines innovative design, cutting-edge technology, and
+              forward-thinking strategies to create a scalable, future-proof
+              online presence. We ensure your website evolves with your business
+              needs, delivering exceptional performance and user experience at
+              every stage. Partner with us to future-proof your digital presence
+              and achieve sustainable growth that makes a lasting impact.
             </p>
             <div className="cat mT2">
-              <h5> Audit </h5>
               <h5> Keyword Research </h5>
               <h5> On-Page SEO </h5>
               <h5> Technical SEO </h5>
               <h5> Optimization </h5>
-              <h5> Link Building </h5>
+              <h5> Performance </h5>
+              <h5> Scaling for the Future </h5>
             </div>
           </div>
         </div>
