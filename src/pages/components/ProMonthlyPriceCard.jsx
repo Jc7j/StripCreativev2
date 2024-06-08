@@ -55,7 +55,7 @@ export default function MonthlyPriceCard() {
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
           <Link
             aria-label="Subscribe today"
-            href="https://buy.stripe.com/5kA6or1jNgRXdDqaEJ"
+            href="https://buy.stripe.com/14k3cf8Mf59f8j614c"
             target="_blank"
             data-magnetic
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full"
