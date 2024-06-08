@@ -5,10 +5,10 @@ export default function Process() {
         <div className="sticky_scroll">
           <div className="heading">
             <h1 className="fade">
-              Our <br /> process
+              Simple <br /> process
             </h1>
             <h1 className="fill">
-              Our <br /> process
+              Simple <br /> process
             </h1>
           </div>
           <h5>
@@ -20,8 +20,44 @@ export default function Process() {
         <div className="sticky_scrolling">
           <div className="card">
             <h5>1. Discovery</h5>
+            <h3 className="mT2">On-boarding</h3>
+            <p>
+              Our team onboards you to our team and provides you with the
+              necessary tools and resources to kickstart your project.
+              We&apos;ll gather context and information about your project to
+              help us build a comprehensive plan for your website.
+            </p>
+          </div>
+          <div className="card">
+            <h5>2. Execution</h5>
             <h3 className="mT2">
-              research & <br /> on-boarding
+              Design & <br /> Development
+            </h3>
+            <p>
+              Having understood your requirements we embark on a creative
+              journey to design ideas. Collaboration is what we strive for so
+              you&apos;ll be in the loop with us throughout the process. The
+              project only moves forward your approval and we revise as many
+              times as you want.
+            </p>
+          </div>
+          <div className="card">
+            <h5>3. Results</h5>
+            <h3 className="mT2">
+              Deployment & <br /> Retainer
+            </h3>
+            <p>
+              After meticulous ideation, designing, developing and testing, you
+              get to watch the results. We offer ongoing support, maintenance,
+              and updates to keep your site secure, functional, and aligned with
+              your business goals. Enjoy peace of mind knowing our team is
+              always here to help with any changes or improvements you need.
+            </p>
+          </div>
+          {/* <div className="card">
+            <h5>1. Discovery</h5>
+            <h3 className="mT2">
+              Research <br /> on-boarding
             </h3>
             <p>
               During this discovery phase, our team starts a thorough research
@@ -34,8 +70,8 @@ export default function Process() {
               you with the necessary tools and resources to kickstart your
               project.
             </p>
-          </div>
-          <div className="card">
+          </div> */}
+          {/* <div className="card">
             <h5>2. UI/UX Design</h5>
             <h3 className="mT2">Concept</h3>
             <p>
@@ -47,8 +83,8 @@ export default function Process() {
               are user-centered and all options have been explored to deliver
               cutting-edge solutions that engage and convert.
             </p>
-          </div>
-          <div className="card">
+          </div> */}
+          {/* <div className="card">
             <h5>3. Technology</h5>
             <h3 className="mT2">Development & Testing</h3>
             <p>
@@ -63,8 +99,8 @@ export default function Process() {
               functional and user friendly to increase customer conversion and
               retention.
             </p>
-          </div>
-          <div className="card">
+          </div> */}
+          {/* <div className="card">
             <h5>4. Deployment</h5>
             <h3 className="mT2">Launch</h3>
             <p>
@@ -75,8 +111,8 @@ export default function Process() {
               push the “go live” button. We also provide aftercare website
               support if required.
             </p>
-          </div>
-          <div className="card">
+          </div> */}
+          {/* <div className="card">
             <h5>5. Retainer</h5>
             <h3 className="mT2">Ongoing Support</h3>
             <p>
@@ -86,7 +122,7 @@ export default function Process() {
               your business goals. Enjoy peace of mind knowing our team is
               always here to help with any changes or improvements you need.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

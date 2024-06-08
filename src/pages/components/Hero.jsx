@@ -8,7 +8,7 @@ export default function Hero() {
         <p className="">
           Every business deserves a unique and powerful online presence. Our
           mission is to transform your vision into a stunning, functional
-          website that not only meets but exceeds yours and your customers
+          website that not only meets, but exceeds yours and your customers
           expectations.
         </p>
         <Link
