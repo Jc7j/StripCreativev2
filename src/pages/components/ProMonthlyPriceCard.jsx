@@ -1,16 +1,15 @@
 import Link from "next/link";
 import React from "react";
 
-const hover = "shadow-sm hover:shadow-lg transition-all duration-300";
 const features = [
   "Full-service",
-  "Updates every 2 days",
-  "Unlimited Requests",
-  "Code development",
-  "Async + Slack",
-  "Web Hosting",
+  "Daily updates",
+  "Weekly syncs",
   "Unlimited Revisions",
-  "No Contracts",
+  "Code development",
+  "Data Management",
+  "Customized Scope",
+  "Everything Included",
 ];
 
 export default function MonthlyPriceCard() {
@@ -18,16 +17,11 @@ export default function MonthlyPriceCard() {
     <div className="bg-[#1e1e1e] rounded-[28px] shadow-lg p-4 w-full">
       <div className="border-[#dbdbdb] border-2 py-3 px-4 rounded-[16px]">
         <span className="flex md:flex-row flex-col items-center gap-2">
-          <h5 className="text-3xl font-medium">Standard</h5>
+          <h5 className="text-3xl font-medium">Product Design</h5>
           <div className="px-3 bg-rose-50 rounded-full w-auto">
             <div className="text-rose-500 text-center text-sm font-medium leading-normal">
-              3 spots remaining
+              Limited Availability
             </div>
-          </div>
-          <div className="px-3 bg-green-100 rounded-full w-auto">
-            <p className="text-green-700 text-sm text-center font-medium leading-normal">
-              Most Popular
-            </p>
           </div>
         </span>
 
@@ -43,7 +37,7 @@ export default function MonthlyPriceCard() {
         <div>
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
-            Businesses needing ongoing high quality and fast product building.
+            For new and existing products dealing with users and data built fast to scale with you & your users needs.
           </p>
         </div>
 
@@ -60,12 +54,13 @@ export default function MonthlyPriceCard() {
 
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
           <Link
-            aria-label="get started now"
-            href="https://buy.stripe.com/6oE3cfd2vgRXeHu8wC"
+            aria-label="Subscribe today"
+            href="https://buy.stripe.com/5kA6or1jNgRXdDqaEJ"
+            target="_blank"
             data-magnetic
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full"
           >
-            <span>Get started now</span>
+            <span>Start today &nbsp; →</span>
           </Link>
           <p className="">or</p>
           <Link

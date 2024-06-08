@@ -19,12 +19,12 @@ const FAQs = [
   },
   {
     q: "Why would't I just hire a full-time designer or developer?",
-    a: "The cost and time to find and hire one exceeds $100k+, requring locked in contracts, benefits, vacation days, and more. We offer no contracts, senior level designs, senior level software develpment, and the ability to cancel your membership whenever you have no ongoing requests. We partner with you for as long as you need us and every signle dollar you spend with us is dedicated to active work. ",
+    a: "The cost and time to find and hire one exceeds well over $100k+, requring locked in contracts, benefits, vacation days, and more. We offer no contracts, senior level designs, senior level software develpment, and the ability to cancel your membership whenever you have no ongoing requests. We partner with you for as long as you need us and every signle dollar you spend with us is dedicated to active work. ",
   },
-  {
-    q: "What's the main difference between Membership and Project-Based?",
-    a: "Both offer the same benefits. Project based is great if you need a high quality landing or marketing page fast and thats all. While membership, we'll also deliver a high quality website fast, but you need ongoing support, improvements or new additions consistently to figure out what works best.",
-  },
+  // {
+  //   q: "What's the main difference between Membership and Project-Based?",
+  //   a: "Both offer the same benefits. Project based is great if you need a high quality landing or marketing page fast and thats all. While membership, we'll also deliver a high quality website fast, but you need ongoing support, improvements or new additions consistently to figure out what works best.",
+  // },
   {
     q: "Who owns the work?",
     a: "We provide hosting packages, but unless you'd like to host it on your own, from the designs, code & hosting, the work is owned by you. We provide the tools and support to get the work done and help get your website out swiftly with high quality.",
@@ -108,7 +108,7 @@ export default function Footer() {
             className="btn focus"
             data-magnetic
           >
-            <span>Contact Us</span>
+            <span>Email Us</span>
           </Link>
         </div>
         <div className="wrapper focus mT5">
