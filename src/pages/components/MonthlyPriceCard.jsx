@@ -32,7 +32,7 @@ export default function MonthlyPriceCard() {
         </span>
 
         <div className="flex items-end mt-6">
-          <p className="text-6xl text-header">$7k</p>
+          <p className="text-6xl text-header">$6k</p>
           <p className="text-3xl text-header">/mo</p>
         </div>
         <p className="text-md mt-4">
@@ -61,7 +61,7 @@ export default function MonthlyPriceCard() {
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
           <Link
             aria-label="get started now"
-            href="https://buy.stripe.com/5kA6or1jNgRXdDqaEJ"
+            href="https://buy.stripe.com/6oE3cfd2vgRXeHu8wC"
             data-magnetic
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full"
           >
