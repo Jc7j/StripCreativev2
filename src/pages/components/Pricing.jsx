@@ -15,8 +15,8 @@ export default function Pricing() {
         </div>
         <div className="txt mT2">
           <h5>
-            Our seasoned team combines cutting-edge UI/UX design, branding
-            expertise, and SEO strategies to craft bespoke digital experiences.
+          Invest in a solution that drives your business to success. 
+          Clear, straightforward plans tailored to your needs.
           </h5>
         </div>
 

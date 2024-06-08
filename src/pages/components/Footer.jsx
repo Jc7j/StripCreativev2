@@ -18,12 +18,12 @@ const FAQs = [
     a: "The Strip Creative process is straightforward. It starts with a kickoff call to understand your goals and inspiration. After that, you provide feedback while we take care of the rest, keeping you updated every 1-2 days via Slack or video. Providing fast website performance, industry level SEO and scalability is like our second nature. We're here to help you get your website out the door as fast as possible with the help of our team.",
   },
   {
-    q: "What's the main difference between Membership and Project-Based?",
-    a: "Both offer the same benefits. Project based is great if you need a high quality landing or marketing page fast and thats all. While membership, we'll also deliver a high quality website fast, but you need ongoing support, improvements or new additions consistently to figure out what works best.",
-  },
-  {
     q: "Why would't I just hire a full-time designer or developer?",
     a: "The cost and time to find and hire one exceeds $100k+, requring locked in contracts, benefits, vacation days, and more. We offer no contracts, senior level designs, senior level software develpment, and the ability to cancel your membership whenever you have no ongoing requests. We partner with you for as long as you need us and every signle dollar you spend with us is dedicated to active work. ",
+  },
+  {
+    q: "What's the main difference between Membership and Project-Based?",
+    a: "Both offer the same benefits. Project based is great if you need a high quality landing or marketing page fast and thats all. While membership, we'll also deliver a high quality website fast, but you need ongoing support, improvements or new additions consistently to figure out what works best.",
   },
   {
     q: "Who owns the work?",

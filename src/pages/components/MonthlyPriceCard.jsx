@@ -18,7 +18,7 @@ export default function MonthlyPriceCard() {
     <div className="bg-[#1e1e1e] rounded-[28px] shadow-lg p-4 w-full">
       <div className="border-[#dbdbdb] border-2 py-3 px-4 rounded-[16px]">
         <span className="flex md:flex-row flex-col items-center gap-2">
-          <h5 className="text-3xl font-medium">Membership</h5>
+          <h5 className="text-3xl font-medium">Standard</h5>
           <div className="px-3 bg-rose-50 rounded-full w-auto">
             <div className="text-rose-500 text-center text-sm font-medium leading-normal">
               3 spots remaining
