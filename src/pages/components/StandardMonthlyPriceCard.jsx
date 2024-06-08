@@ -30,7 +30,7 @@ export default function StandardMonthlyPriceCard() {
         </span>
 
         <div className="flex items-end mt-6">
-          <p className="text-6xl text-header">$4k</p>
+          <p className="text-6xl text-header">$5k</p>
           <p className="text-3xl text-header">/mo</p>
         </div>
         <p className="text-md mt-4">
