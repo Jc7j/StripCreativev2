@@ -55,7 +55,7 @@ export default function About() {
           </div>
           <Link
             aria-label="book an intro call"
-            href="https://cal.com/strip-creative/15min"
+            href="https://cal.com/strip-creative/25min"
             target="_blank"
             className="btn focus !w-fit"
             data-magnetic

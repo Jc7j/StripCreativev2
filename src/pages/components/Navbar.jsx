@@ -16,7 +16,7 @@ export default function Navbar() {
             </div>
           </div> */}
           <Link
-            href="https://cal.com/strip-creative/15min"
+            href="https://cal.com/strip-creative/25min"
             className="btn focus !w-fit !py-[0.6rem] !px-[1.4rem]"
             data-magnetic
           >

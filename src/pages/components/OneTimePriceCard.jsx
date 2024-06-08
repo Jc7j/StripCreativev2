@@ -27,7 +27,7 @@ export default function OneTimePriceCard() {
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
           <Link
             aria-label="book an intro call"
-            href="https://cal.com/strip-creative/15min"
+            href="https://cal.com/strip-creative/25min"
             data-magnetic
             target="_blank"
             className="btn focus bg-[#b9e9b3] text-[#151515] rounded-full !w-fit"
