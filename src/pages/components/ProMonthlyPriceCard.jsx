@@ -6,7 +6,7 @@ const features = [
   "Daily updates",
   "Weekly syncs",
   "Unlimited Revisions",
-  "Code development",
+  "Back-end Development",
   "Data Management",
   "Customized Scope",
   "Everything Included",
