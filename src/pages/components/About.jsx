@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import InfiniteMovingCards from "./infinite-moving-cards";
 import { useMediaQuery } from "react-responsive";
-import Image from "next/image";
 
 const Images = [
   {
@@ -48,10 +47,10 @@ export default function About() {
         <div className="heading_cnt">
           <div className="heading">
             <h1 className="fade">
-              Design & <br /> Development <br /> Agency
+              Design & <br /> {isMobile ? 'Develop' : 'Development'} <br /> Agency
             </h1>
             <h1 className="fill">
-              Design & <br /> Development <br /> Agency
+              Design & <br /> {isMobile ? 'Develop' : 'Development'} <br /> Agency
             </h1>
           </div>
           <Link

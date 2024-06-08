@@ -15,7 +15,7 @@ import Link from "next/link";
 const FAQs = [
   {
     q: "What's the Strip Creative delivery process?",
-    a: "The Strip Creative process is straightforward. It starts with a kickoff call to understand your goals and inspiration. After that, you provide feedback while we take care of the rest, keeping you updated every 1-2 days via Slack or video. Providing fast website performance, industry level SEO and scalability is like our second nature. We're here to help you get your website out the door as fast as possible with the help of our team.",
+    a: "The Strip Creative process is straightforward. After receiving the tools you need to work with us, it starts with a kickoff call to understand your goals and inspiration. After that, you provide feedback while we take care of the rest, keeping you updated every 1-2 days via Slack or video. Providing fast website performance, industry level SEO and scalability is like our second nature. We're here to help you get your website out the door as fast as possible with the help of our team.",
   },
   {
     q: "Why would't I just hire a full-time designer or developer?",

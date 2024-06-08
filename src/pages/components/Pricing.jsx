@@ -22,7 +22,7 @@ export default function Pricing() {
         </div>
 
         <div className="mT3 flex flex-col gap-4">
-          <div className="flex gap-4">
+          <div className="flex flex-col md:flex-row gap-4">
           <StandardMonthlyPriceCard />
           <ProMonthlyPriceCard />
           </div>
