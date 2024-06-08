@@ -22,11 +22,6 @@ export default function StandardMonthlyPriceCard() {
               3 spots remaining
             </div>
           </div>
-          <div className="px-3 bg-green-100 rounded-full w-auto">
-            <p className="text-green-700 text-sm text-center font-medium leading-normal">
-              Most Popular
-            </p>
-          </div>
         </span>
 
         <div className="flex items-end mt-6">
