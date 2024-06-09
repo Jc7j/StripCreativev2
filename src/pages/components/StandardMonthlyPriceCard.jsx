@@ -16,7 +16,7 @@ export default function StandardMonthlyPriceCard() {
   return (
     <div className="bg-[#1e1e1e] rounded-[28px] shadow-lg p-4 w-full">
       <div className="border-[#dbdbdb] border-2 py-3 px-4 rounded-[16px]">
-        <span className="flex lg:flex-row flex-col min-h-24 lg:max-h-10 items-center gap-2">
+        <span className="flex lg:flex-row flex-col min-h-20 items-center gap-2">
           <h5 className="text-3xl font-medium">Website Design</h5>
           <div className="px-3 bg-rose-50 rounded-full w-auto">
             <div className="text-rose-500 text-center text-sm font-medium leading-normal">
@@ -25,7 +25,7 @@ export default function StandardMonthlyPriceCard() {
           </div>
         </span>
 
-        <div className="flex items-end mt-6">
+        <div className="flex items-end mt-4">
           <p className="text-6xl text-header">$5k</p>
           <p className="text-3xl text-header">/mo</p>
         </div>
