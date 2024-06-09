@@ -44,7 +44,7 @@ export default function StandardMonthlyPriceCard() {
         <div>
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
-            For websites, brands needing high-impact, conversion-focused landing, marketing, portfolio pages.
+            For websites, brands needing high-impact, conversion-focused pages.
           </p>
         </div>
 

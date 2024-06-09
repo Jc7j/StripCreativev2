@@ -15,8 +15,8 @@ const features = [
   "App Development",
   "Analytics",
   "Back-end Development",
-  "API Routing",
-  "Data Management",
+  "Ecommerce",
+  "Data Managemnet",
   "Customized Scope",
 ];
 
@@ -50,7 +50,7 @@ export default function MonthlyPriceCard() {
         <div>
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
-            For new and existing products dealing with users and data built fast to scale with you & your users needs.
+            For new and existing products built fast to scale with you & your users needs.
           </p>
         </div>
 

@@ -50,6 +50,7 @@ export default function Services() {
               <h5>React Native </h5>
               <h5>Node.JS</h5>
               <h5>PostgreSQL</h5>
+              <h5>Shopify API</h5>
               <h5>Database Management</h5>
             </div>
           </div>
