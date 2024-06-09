@@ -24,6 +24,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Process from "./components/Process";
 import Pricing from "./components/Pricing";
+import Benefits from "./components/Benefits";
 
 export default function Home() {
   useEffect(() => {
@@ -81,6 +82,7 @@ export default function Home() {
         <Clients />
         <Marquee />
         <Process />
+        <Benefits />
         <Pricing />
         <Footer />
       </div>

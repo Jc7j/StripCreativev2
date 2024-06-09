@@ -6,7 +6,7 @@ export default function OneTimePriceCard() {
     <div className="bg-[#1e1e1e] rounded-[28px] shadow-lg p-4 w-full">
       <div className="border-[#dbdbdb] border-2 py-3 px-4 rounded-[16px]">
         <span className="flex md:flex-row flex-col items-center gap-2">
-          <h5 className="text-3xl font-medium">Project-Based</h5>
+          <h5 className="text-3xl font-medium">Custom Project-Based</h5>
         </span>
 
         <div className="flex items-end mt-6 gap-2 text-3xl">
@@ -21,7 +21,8 @@ export default function OneTimePriceCard() {
         <div>
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
-            Ideal for specific goals. Customized project scope per project.
+            Ideal for specific goals. Customized project scope per project
+            whether its a website, website product, or app.
           </p>
         </div>
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">

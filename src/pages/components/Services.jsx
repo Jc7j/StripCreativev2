@@ -14,9 +14,9 @@ export default function Services() {
           <h5 className="">
             {/* Elevating digital experiences with expertly crafted web development
             and intuitive user experience & user interface design. */}
-            We&apos;re more than just an agency. Creating high quality websites &
-            products swiftly is our main expertise, but we pride ourselves
-            on our collaboration process & ability to build every unique website.
+            We&apos;re more than just an agency. Creating high quality websites
+            & products swiftly is our main expertise, but we pride ourselves on
+            our collaboration process & ability to build every unique website.
           </h5>
         </div>
         <div className="sticky_scrolling">

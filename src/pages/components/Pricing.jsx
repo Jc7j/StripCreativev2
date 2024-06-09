@@ -16,17 +16,17 @@ export default function Pricing() {
         </div>
         <div className="txt mT2">
           <h5>
-          Invest in a solution that drives your business to success. 
-          Clear, straightforward plans tailored to your needs. No contracts.
+            Invest in a solution that drives your business to success. Clear,
+            straightforward plans tailored to your needs. No contracts.
           </h5>
         </div>
 
         <div className="mT3 flex flex-col gap-4">
           <div className="flex flex-col md:flex-row gap-4">
-          <StandardMonthlyPriceCard />
-          <ProMonthlyPriceCard />
+            <StandardMonthlyPriceCard />
+            <ProMonthlyPriceCard />
           </div>
-          
+
           <OneTimePriceCard />
         </div>
       </div>

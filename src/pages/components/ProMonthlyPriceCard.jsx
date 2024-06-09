@@ -1,16 +1,9 @@
 import Link from "next/link";
 import React from "react";
 
-// "Full-service",
-// "Daily updates",
-// "Weekly syncs",
-// "Unlimited Revisions",
-// "Back-end Development",
-// "Data Management",
-// "Customized Scope",
-// "Everything Included",
+
 const features = [
-  "Everything included",
+  "Everything in Website Design",
   "Dashboards",
   "App Development",
   "Analytics",
@@ -50,7 +43,8 @@ export default function MonthlyPriceCard() {
         <div>
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
-            For new and existing products built fast to scale with you & your users needs.
+            For new and existing products built fast to scale with you & your
+            users needs.
           </p>
         </div>
 
