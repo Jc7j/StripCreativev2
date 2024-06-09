@@ -11,7 +11,7 @@ export default function OneTimePriceCard() {
 
         <div className="flex items-end mt-6 gap-2 text-3xl">
           <p>starting at</p>
-          <p className="text-6xl">$10k</p>
+          <p className="text-6xl">$15k</p>
         </div>
         <p className="text-md mt-4">
           Idea to completion swiftly. 50% advance, 50% on final.
@@ -22,7 +22,7 @@ export default function OneTimePriceCard() {
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
             Ideal for specific goals. Customized project scope per project
-            whether its a website, website product, or app.
+            whether its a website, website product, or app. 
           </p>
         </div>
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">

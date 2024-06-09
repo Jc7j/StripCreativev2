@@ -26,8 +26,8 @@ export default function Pricing() {
             <StandardMonthlyPriceCard />
             <ProMonthlyPriceCard />
           </div>
-
           <OneTimePriceCard />
+
         </div>
       </div>
     </section>

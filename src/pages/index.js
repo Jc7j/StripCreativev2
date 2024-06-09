@@ -49,7 +49,7 @@ export default function Home() {
         window.addEventListener("load", onLoad);
         return () => window.removeEventListener("load", onLoad);
       }
-    }, 1000); // Adjust the delay as needed
+    }, 1000); 
 
     return () => clearTimeout(timeoutId);
   }, []);
