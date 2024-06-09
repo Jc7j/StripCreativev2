@@ -1,15 +1,23 @@
 import Link from "next/link";
 import React from "react";
 
+// "Full-service",
+// "Daily updates",
+// "Weekly syncs",
+// "Unlimited Revisions",
+// "Back-end Development",
+// "Data Management",
+// "Customized Scope",
+// "Everything Included",
 const features = [
-  "Full-service",
-  "Daily updates",
-  "Weekly syncs",
-  "Unlimited Revisions",
+  "Everything included",
+  "Dashboards",
+  "App Development",
+  "Analytics",
   "Back-end Development",
+  "API Routing",
   "Data Management",
   "Customized Scope",
-  "Everything Included",
 ];
 
 export default function MonthlyPriceCard() {

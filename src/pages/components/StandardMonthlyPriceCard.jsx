@@ -1,14 +1,22 @@
 import Link from "next/link";
 import React from "react";
 
+// "Full-service",
+// "Daily updates",
+// "Unlimited Revisions",
+// "Code development",
+// "Slack + Notion",
+// "Web Hosting",
+// "Third-Party Integration",
 const features = [
-  "Full-service",
+  "Landing pages",
+  "Marketing pages",
+  "Portfolio pages",
+  "Website development",
+  "Website hosting",
+  "Third-party integration",
   "Daily updates",
-  "Unlimited Revisions",
-  "Code development",
-  "Slack + Notion",
-  "Web Hosting",
-  "Third-Party Integration",
+  "Unlimited revisions"
 ];
 
 export default function StandardMonthlyPriceCard() {

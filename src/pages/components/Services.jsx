@@ -30,8 +30,8 @@ export default function Services() {
             <div className="cat mT2">
               <h5> Web Design </h5>
               <h5> Web App Design</h5>
-              <h5>User Experience Design</h5>
-              <h5>User Interface Design</h5>
+              <h5> Mobile App Design</h5>
+              <h5>UI/UX Design</h5>
               <h5>Interactions</h5>
             </div>
           </div>
