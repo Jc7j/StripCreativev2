@@ -30,8 +30,8 @@ const FAQs = [
     a: "We provide hosting packages, but unless you'd like to host it on your own, from the designs, code & hosting, the work is owned by you. We provide the tools and support to get the work done and help get your website out swiftly with high quality.",
   },
   {
-    q: "I have a smaller project that can't afford to pay for a full membership?",
-    a: "That's fine! Feel free to email us or book a call and we can discuss something that aligns with your needs.",
+    q: "Can you audit my website?",
+    a: "Yes! We'll audit your website for free and provide you with a report on the performance, accessibility, and security of your website. We'll also provide you with suggestions on how to improve your website. Email us with the button above and we'll get back to you within 24 hours.",
   },
   {
     q: "What if I dont like my designs?",
@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
           <Link
             aria-label="book an intro call"
-            href="https://cal.com/strip-creative/25min"
+            href="mailto:jason@stripcreative.design?subject=I'd%20like%20to%20partner%20with%20you.%20How%20can%20we%20start?"
             className="btn focus"
             data-magnetic
           >

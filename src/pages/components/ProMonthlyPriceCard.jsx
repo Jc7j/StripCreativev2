@@ -6,10 +6,10 @@ const features = [
   "Everything in Website Design",
   "Dashboards",
   "App Development",
-  "Analytics",
   "Back-end Development",
   "Ecommerce",
   "Data Managemnet",
+  "Priority Support",
   "Customized Scope",
 ];
 
