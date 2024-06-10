@@ -49,10 +49,10 @@ export default function MonthlyPriceCard() {
 
         <div className="mt-4">
           <p className="font-medium text-xl">What&apos;s included</p>
-          <ol className="mt-4 grid lg:grid-cols-2 gap-2 px-4 min-h-52">
+          <ol className="mt-6 grid lg:grid-cols-2 gap-2 px-4 min-h-52">
             {features.map((feature) => (
               <li className="text-lg text-body" key={feature}>
-                {feature}
+               ⚡️ {feature}
               </li>
             ))}
           </ol>
