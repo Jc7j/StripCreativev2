@@ -4,7 +4,7 @@ import StandardMonthlyPriceCard from "./StandardMonthlyPriceCard";
 
 export default function Pricing() {
   return (
-    <section className="pricing">
+    <section className="pricing" id="pricing-section">
       <div id="container">
         <div className="heading">
           <h1 className="fade">
@@ -27,7 +27,6 @@ export default function Pricing() {
             <ProMonthlyPriceCard />
           </div>
           <OneTimePriceCard />
-
         </div>
       </div>
     </section>

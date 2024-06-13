@@ -24,7 +24,8 @@ export default function Benefits() {
           </div>
         </div>
         <h5 className="mT2">
-          No contracts, on demand, full-service creative design and development fit to your needs with unlimited revisions.
+          No contracts, on demand, full-service creative design and development
+          fit to your needs with unlimited revisions.
         </h5>
       </div>
       {/* JoinTeamCard */}
@@ -33,9 +34,7 @@ export default function Benefits() {
           <div className="join_card_wrapper mT5">
             {benefits.map((benefit, index) => (
               <div className="card" key={index}>
-                <h5>
-                    {benefit}
-                </h5>
+                <h5>{benefit}</h5>
               </div>
             ))}
           </div>

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-
 const features = [
   "Everything in Website Design",
   "Dashboards",
@@ -35,9 +34,7 @@ export default function MonthlyPriceCard() {
           <p className="text-6xl text-header">$8k</p>
           <p className="text-3xl text-header">/mo</p>
         </div>
-        <p className="text-md mt-4">
-          Pause or cancel anytime.
-        </p>
+        <p className="text-md mt-4">Pause or cancel anytime.</p>
         <hr className="mt-4 mb-8 border-[#dbdbdb]" />
 
         <div className="max-h-60">
@@ -52,7 +49,7 @@ export default function MonthlyPriceCard() {
           <ol className="mt-6 grid lg:grid-cols-2 gap-2 px-4 min-h-52">
             {features.map((feature) => (
               <li className="text-lg text-body" key={feature}>
-               ⚡️ {feature}
+                ⚡️ {feature}
               </li>
             ))}
           </ol>

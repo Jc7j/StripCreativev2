@@ -20,7 +20,7 @@ export default function StandardMonthlyPriceCard() {
           <h5 className="text-3xl font-medium">Website Design</h5>
           <div className="px-3 bg-rose-50 rounded-full w-auto">
             <div className="text-rose-500 text-center text-sm font-medium leading-normal">
-              3 spots remaining
+              2 spots remaining
             </div>
           </div>
         </span>
@@ -29,9 +29,7 @@ export default function StandardMonthlyPriceCard() {
           <p className="text-6xl text-header">$5k</p>
           <p className="text-3xl text-header">/mo</p>
         </div>
-        <p className="text-md mt-4">
-          Pause or cancel anytime.
-        </p>
+        <p className="text-md mt-4">Pause or cancel anytime.</p>
         <hr className="mt-4 mb-8 border-[#dbdbdb]" />
 
         <div className="max-h-60">

@@ -22,7 +22,7 @@ export default function OneTimePriceCard() {
           <p className="font-medium text-xl">For</p>
           <p className="text-lg">
             Ideal for specific goals. Customized project scope per project
-            whether its a website, website product, or app. 
+            whether its a website, website product, or app.
           </p>
         </div>
         <div className="flex md:flex-row flex-col items-center gap-4 mt-10 mb-5 text-x">
