@@ -1,10 +1,12 @@
 import Link from "next/link";
+import Availability from "./Availability";
 
 export default function Hero() {
   return (
     <header className="hero">
       <div id="container">
-        <h2 className="focus2">Empowering Your Online Identity</h2>
+        <Availability />
+        <h2 className="focus2 mt-10">Empowering Your Online Identity</h2>
         <p className="">
           Every business deserves a unique and powerful online presence. Our
           mission is to transform your vision into a stunning, functional

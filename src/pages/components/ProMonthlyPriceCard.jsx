@@ -18,11 +18,11 @@ export default function MonthlyPriceCard() {
       <div className="border-[#dbdbdb] border-2 py-3 px-4 rounded-[16px]">
         <span className="flex lg:flex-row flex-col items-center min-h-20 gap-2">
           <h5 className="text-3xl font-medium">Product Design</h5>
-          <div className="px-3 bg-rose-50 rounded-full w-auto">
+          {/* <div className="px-3 bg-rose-50 rounded-full w-auto">
             <div className="text-rose-500 text-center text-sm font-medium leading-normal">
               Limited Availability
             </div>
-          </div>
+          </div> */}
           <div className="px-3 bg-green-100 rounded-full w-auto">
             <p className="text-green-700 text-sm text-center font-medium leading-normal">
               Most Popular
