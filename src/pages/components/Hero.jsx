@@ -6,7 +6,9 @@ export default function Hero() {
     <header className="hero">
       <div id="container">
         <Availability />
-        <h2 className="focus2 mt-10">Empowering Your Online Identity</h2>
+        <h2 className="focus2 mt-10">
+        Design partner for <br/> startups and businesses
+        </h2>
         <p className="">
           Every business deserves a unique and powerful online presence. Our
           mission is to transform your vision into a stunning, functional

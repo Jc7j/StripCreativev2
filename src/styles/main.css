@@ -1495,7 +1495,7 @@ header #container {
 }
 header #container h2 {
   width: 100%;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 header #container p {
   max-width: 420px;
@@ -1529,7 +1529,7 @@ header #container p {
 
 @media (min-width: 1040px) {
   header #container h2 {
-    max-width: 70%;
+    max-width: 100%;
   }
   header #container p {
     max-width: 60%;
