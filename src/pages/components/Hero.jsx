@@ -7,7 +7,7 @@ export default function Hero() {
       <div id="container">
         <Availability />
         <h2 className="focus2 mt-10">
-        Design partner for <br/> startups and businesses
+        Design partner for <br/> startups
         </h2>
         <p className="">
           Every business deserves a unique and powerful online presence. Our
